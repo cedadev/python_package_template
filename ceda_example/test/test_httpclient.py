@@ -17,7 +17,7 @@ from ceda_example.http_client import HttpClient, HttpClientReadFileError
 # Then code - you may want to log unit test output but not normally necessary
 log = logging.getLogger(__name__)
 
-THIS_DIR = os.path.dirname(__file__)
+THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 class HttpClientTestCase(unittest.TestCase):
@@ -30,7 +30,7 @@ class HttpClientTestCase(unittest.TestCase):
         self.assertRaises(TypeError, HttpClient)
         
     def test_download_file(self):
-        http_client = HttpClient('http://ceda.ac.uk/')
+        http_client = HttpClient('http://www.ceda.ac.uk/')
         
         try:
             http_client.download_file(self.TEST_OUTPUT_FILEPATH)
@@ -42,7 +42,7 @@ class HttpClientTestCase(unittest.TestCase):
     def test_download_file_for_non_existent_uri(self):
         # Make sure HttpClientReadFileError is raised if a non-200 status
         # is returned
-        http_client = HttpClient('http://ceda.ac.uk/does-not-exist/')
+        http_client = HttpClient('http://www.ceda.ac.uk/does-not-exist/')
         
         # Using /dev/null for the output file here because we're not 
         # interested in any output

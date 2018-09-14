@@ -43,7 +43,7 @@ class HttpClient:
         response = requests.get(self.uri)
         
         if response.status_code != HTTPStatus.OK:
-            raise HttpClientReadFileError("Error downloading file from {!r}. "
+            raise HttpClientReadFileError("Error downloading file from {!r}; "
                                           " status code is {!r}".format(
                                                       self.uri, 
                                                       response.status_code))
