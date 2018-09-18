@@ -27,7 +27,8 @@ class HttpClientTestCase(unittest.TestCase):
     
     def test_no_arg_for_contructor(self):
         # Show that when called with no arguments to the constructor it fails
-        self.assertRaises(TypeError, HttpClient)
+        with self.assertRaises(TypeError):
+            HttpClient()
         
     def test_download_file(self):
         http_client = HttpClient('http://www.ceda.ac.uk/')
@@ -46,10 +47,10 @@ class HttpClientTestCase(unittest.TestCase):
         
         # Using /dev/null for the output file here because we're not 
         # interested in any output
-        self.assertRaises(HttpClientReadFileError, http_client.download_file, 
-                          os.devnull)
+        with self.assertRaises(HttpClientReadFileError):
+            http_client.download_file(os.devnull)
 
-          
+            
 # Enable unit test to be called as a script
 if __name__ == "__main__":
     unittest.main()

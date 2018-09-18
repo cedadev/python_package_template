@@ -40,7 +40,7 @@ setup(
     
     # This qualifier can be used to selectively exclude Python versions - 
     # in this case early Python 2 and 3 releases
-    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*', 
+    python_requires='>=3.5.0', 
     
     # See:
     # https://www.python.org/dev/peps/pep-0301/#distutils-trove-classification
@@ -57,11 +57,10 @@ setup(
         'Operating System :: Microsoft :: Windows',
         'Operating System :: POSIX :: Linux',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Topic :: Security',
         'Topic :: Internet',
         'Topic :: Scientific/Engineering',
@@ -72,7 +71,7 @@ setup(
     zip_safe=False,
     entry_points={
         'console_scripts': [
-            'ceda_example = ceda_example.scripts.http_client:main',
+            'ceda_example = ceda_example.scripts.http_download:main',
             ],
         }
 )

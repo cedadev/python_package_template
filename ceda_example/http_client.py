@@ -34,19 +34,25 @@ class HttpClient:
     
     def __init__(self, uri):
         '''Set the URI to operate on
+        
+        :param uri: URI to operate on
         '''
         self.uri = uri
         
     def download_file(self, output_filepath):
         """HTTP GET a file from a given URI
+        
+        :param output_filepath: destination location for downloaded output
         """
+        log.debug('Getting {!r} and saving to {!r}'.format(self.uri, 
+                                                           output_filepath))
         response = requests.get(self.uri)
         
         if response.status_code != HTTPStatus.OK:
-            raise HttpClientReadFileError("Error downloading file from {!r}; "
-                                          " status code is {!r}".format(
-                                                      self.uri, 
-                                                      response.status_code))
+            error_msg = ("Error downloading file from {!r}; status code is "
+                         "{!r}".format(self.uri, response.status_code))
+            log.exception(error_msg)
+            raise HttpClientReadFileError(error_msg)
         
         with open(output_filepath, 'wb') as file_out:
             for chunk in response.iter_content(
