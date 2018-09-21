@@ -19,14 +19,14 @@ sys.path.insert(0, os.path.abspath('..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'ceda-example'
-copyright = '2018, P J Kershaw'
+project = 'CEDA Example Python code for style guidance and conventions'
+copyright = '(C) 2018 Science and Technology Facilities Council'
 author = 'P J Kershaw'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '14 September 2018'
+release = '0.1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -40,10 +40,8 @@ release = '14 September 2018'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.doctest',
     'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
-    'sphinx.ext.githubpages',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -106,7 +104,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ceda-exampledoc'
+htmlhelp_basename = 'CEDAExamplePythoncodeforstyleguidanceandconventionsdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -133,7 +131,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ceda-example.tex', 'ceda-example Documentation',
+    (master_doc, 'CEDAExamplePythoncodeforstyleguidanceandconventions.tex', 'CEDA Example Python code for style guidance and conventions Documentation',
      'P J Kershaw', 'manual'),
 ]
 
@@ -143,7 +141,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'ceda-example', 'ceda-example Documentation',
+    (master_doc, 'cedaexamplepythoncodeforstyleguidanceandconventions', 'CEDA Example Python code for style guidance and conventions Documentation',
      [author], 1)
 ]
 
@@ -154,8 +152,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ceda-example', 'ceda-example Documentation',
-     author, 'ceda-example', 'One line description of project.',
+    (master_doc, 'CEDAExamplePythoncodeforstyleguidanceandconventions', 'CEDA Example Python code for style guidance and conventions Documentation',
+     author, 'CEDAExamplePythoncodeforstyleguidanceandconventions', 'One line description of project.',
      'Miscellaneous'),
 ]
 

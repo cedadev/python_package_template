@@ -13,7 +13,6 @@ from argparse import ArgumentParser
 from ceda_example import __version__
 from ceda_example.http_client import HttpClient
 
-logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger(__name__)
 
 
@@ -53,7 +52,7 @@ class HttpDownloadCLI:
             parsed_args = parser.parse_args()
 
         if parsed_args.debug:
-            logging.getLogger().setLevel(logging.DEBUG)    
+            logging.basicConfig(level=logging.DEBUG)   
 
         # Need both download URL and destination file
         if parsed_args.uri and parsed_args.output_filepath:

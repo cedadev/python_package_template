@@ -71,7 +71,8 @@ setup(
     zip_safe=False,
     entry_points={
         'console_scripts': [
-            'ceda_example = ceda_example.scripts.http_download:main',
+            'ceda_example_http_download = ceda_example.scripts.http_download:'
+            'HttpDownloadCLI.main',
             ],
         }
 )
