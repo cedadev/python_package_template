@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 
 project = 'CEDA Example Python code for style guidance and conventions'
-copyright = '(C) 2018 Science and Technology Facilities Council'
+copyright = 'Copyright 2018 United Kingdom Research and Innovation'
 author = 'P J Kershaw'
 
 # The short X.Y version

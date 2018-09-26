@@ -3,8 +3,8 @@
 '''
 __author__ = "Philip Kershaw" 
 __date__ = "17 Sep 2018"
-__copyright__ = "(C) 2018 organization_name"
-__license__ = "license"
+__copyright__ = "Copyright 2018 United Kingdom Research and Innovation"
+__license__ = "BSD - see LICENSE file in top-level package directory"
 __contact__ = "Philip.Kershaw@stfc.ac.uk"
 __all__ = ['HttpDownloadCLI']
 import logging
