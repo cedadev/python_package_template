@@ -1,10 +1,10 @@
 '''Setup for making overall package
 '''
-__author__ = "Philip Kershaw"
-__date__ = "14 Sep 2018"
+__author__ = "Graham Parton"
+__date__ = "01 Oct 2018"
 __copyright__ = "Copyright 2018 United Kingdom Research and Innovation"
 __license__ = "BSD - see LICENSE file in top-level package directory"
-__contact__ = "Philip.Kershaw@stfc.ac.uk"
+__contact__ = "graham.parton@stfc.ac.uk"
 from setuptools import setup, find_packages
 
 # One strategy for storing the overall version is to put it in the top-level
@@ -21,18 +21,18 @@ with open("README.md") as readme_file:
     
     
 setup(
-    name='ceda-example',
+    name='pyCMMS',
     version=_package_version,
-    description='Example CEDA Python project',
-    author='Philip Kershaw',
-    author_email='Philip.Kershaw@stfc.ac.uk',
-    url='https://github.com/cedadev/python_package_template/',
+    description='Package to parse and check CEDA Manaual Metadata store YAML entries',
+    author='Graham Parton',
+    author_email='Graham.Parton@stfc.ac.uk',
+    url='https://github.com/gap736uk/pyCMMS/',
     long_description=_long_description,
     long_description_content_type='text/markdown',
-    license='BSD - See ceda_example/LICENSE file for details',
+    license='BSD - See pyCMMS/LICENSE file for details',
     packages=find_packages(),
     package_data={
-        'ceda_example': [
+        'pyCMMS': [
             'LICENSE',
         ],
     },

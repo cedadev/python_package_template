@@ -33,10 +33,9 @@ import codecs
 import yaml
 import collections
 import requests
+import json
 
-
-uuid = '455f0dd48613dada7bfb0ccfcb7a7d41' #midas - CMMS entry
-uuid = '220a65615218d5c9cc9e4785a3234bd0' #midas collection - no CMMS entry
+uuids = ['455f0dd48613dada7bfb0ccfcb7a7d41','220a65615218d5c9cc9e4785a3234bd0'] #midas collection - no CMMS entry
 
 
 cmms_url = 'https://raw.githubusercontent.com/cedadev/cmms/master/yaml_files/%s.yml'
@@ -52,9 +51,17 @@ def cmms_entry_exists(uuid):
     '''
     check for existance of CEDA YAML file for the submitted uuid
     '''
-    r = requests.get(cmms_url% uuid)
+    ret = requests.get(cmms_url% uuid)
+    if ret.status_code == requests.codes.ok:
+        stuff  = yaml.load(ret.text)
+        print yaml.dump(stuff)
+    else:
+        print 'not in CMMS>', ret.status_code    
     import pdb;pdb.set_trace()
 
+
+for uuid in uuids:
+    apple = cmms_entry_exists(uuid)
 
 '''
 for uuid, phenoms_list in fbi_obs_to_phenoms.items():
