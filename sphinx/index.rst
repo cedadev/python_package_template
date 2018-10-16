@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to CEDA Example Python code for style guidance and conventions's documentation!
+Welcome to pyCMMS Python code!
 =======================================================================================
 To make these pages I made sphinx directory in the top-level directory::
 

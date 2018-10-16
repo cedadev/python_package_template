@@ -19,9 +19,9 @@ sys.path.insert(0, os.path.abspath('..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'CEDA Example Python code for style guidance and conventions'
+project = 'pyCMMS - A package to parse and check CEDA Manual Metadata Store (CMMS) YAML files'
 copyright = 'Copyright 2018 United Kingdom Research and Innovation'
-author = 'P J Kershaw'
+author = 'Graham A Parton'
 
 # The short X.Y version
 version = ''
@@ -104,7 +104,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CEDAExamplePythoncodeforstyleguidanceandconventionsdoc'
+htmlhelp_basename = 'pyCMMSdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -131,8 +131,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CEDAExamplePythoncodeforstyleguidanceandconventions.tex', 'CEDA Example Python code for style guidance and conventions Documentation',
-     'P J Kershaw', 'manual'),
+    (master_doc, 'pyCMMS.tex', 'pyCMMS code for parsing and checking CEDA Manual Metadata Store (CMMS) YAML files.',
+     'Graham A Parton', 'manual'),
 ]
 
 
@@ -141,7 +141,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cedaexamplepythoncodeforstyleguidanceandconventions', 'CEDA Example Python code for style guidance and conventions Documentation',
+    (master_doc, 'pyCMMS', 'pyCMMS code for parsing and checking CEDA Manual Metadata Store (CMMS) YAML files.',
      [author], 1)
 ]
 
@@ -152,8 +152,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CEDAExamplePythoncodeforstyleguidanceandconventions', 'CEDA Example Python code for style guidance and conventions Documentation',
-     author, 'CEDAExamplePythoncodeforstyleguidanceandconventions', 'One line description of project.',
+    (master_doc, 'pyCMMS', 'pyCMMS code for parsing and checking CEDA Manual Metadata Store (CMMS) YAML files.',
+     author, 'pyCMMS', 'A package that parses YAML files from the CEDA Manual Metadata Store, checking it against requirements for the structure.',
      'Miscellaneous'),
 ]
 

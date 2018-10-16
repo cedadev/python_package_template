@@ -33,7 +33,7 @@ from yamllint.config import YamlLintConfig
 from yamllint import linter
 yamllin_conf = YamlLintConfig('extends: default')
 
-test = 1
+test = True
 
 
 uuids = ['455f0dd48613dada7bfb0ccfcb7a7d41','220a65615218d5c9cc9e4785a3234bd0'] #midas collection - no CMMS entry
@@ -59,14 +59,14 @@ test_uuids =   ['bad_splice', # splice rule field isn't from permitted field lis
                 'full_example'
                 ]
 
-class CMMSEntry():
+class CMMSEntry(object):
     '''
     check for existance of CEDA YAML file for the submitted uuid
     :param
     '''
 
 
-    def __init__(self, uuid, test=0):
+    def __init__(self, uuid, test=False):
 
 
         self.uuid = uuid
@@ -115,7 +115,7 @@ class CMMSEntry():
                             del self.yaml_content[dup_key]
 
 
-            except yaml.YAMLError,e :
+            except yaml.YAMLError as e :
                 self.errors['yaml_check'] = e
         elif ret.status_code == 404:
             self.errors['cmms_check'] = 'no CMMS entry for %s'% self.uuid
@@ -167,7 +167,7 @@ class CMMSEntry():
                         splice_error_msg = '"%s" is not a permitted splice rule option'% splice_rule
 
                 else:
-                    splice_error_msg = '"%s" splice rule exists, but no content in yaml file'
+                    splice_error_msg = '"%s" splice rule exists, but no content in yaml file, so not made available'% splice_item_name
 
             else:
                 splice_error_msg = '"%s" is not a recognised CMMS field name'% splice_item_name
@@ -213,7 +213,7 @@ class CMMSEntry():
             else:
                 self.errors['time_range'] = 'start time is not in yyyy-mm-dd hh:mm:ss format'
 
-        except ValueError, e:
+        except ValueError as e:
             self.errors['time_range'] = '%s'% e
 
     def _check_and_parse_bbox(self):
@@ -252,7 +252,7 @@ class CMMSEntry():
 
             else:
                 self.errors['size'] = '"%s" not a valid unit'% unit
-        except ValueError, e:
+        except ValueError as e:
             self.errors['size'] = e
 
 
@@ -265,15 +265,25 @@ class CMMSEntry():
     def _check_and_parse_accessType(self):
         access_types = ['public', 'registered', 'restricted']
         access_option = self.yaml_content['accessType']
+
         if access_option in access_types:
+
             if access_option == 'restricted':
+
                 if self.yaml_content.has_key('accessRoles'):
-                    pass
+                    self._check_and_parse_accessRoles()
+                    if self.content.has_key('accessRoles'):
+                        self.content['accessType'] = self.yaml_content['accessType'] # To do: some code is needed here!!!
+
                 else:
                     self.errors['accessType'] = 'access roles are missing - required for accessType = restricted'
 
-            self.content[self.field_mappings['accessType']] = access_option
+            elif not self.yaml_content.has_key('accessRoles'):
+                self.content[self.field_mappings['accessType']] = self.yaml_content['accessType']
 
+            else:
+                self.errors['acesssType'] = 'access roles provided, but not consistent with access types selected' \
+                                            ' "%s" '% self.yaml_content['accessType']
         else:
             self.errors['access_type'] = '"%s" is not a permitted option'% access_option
 
@@ -287,7 +297,7 @@ class CMMSEntry():
         try:
             ret = requests.get(self.yaml_content['licenceUrl'])
 
-        except requests.RequestException, e:
+        except requests.RequestException as e:
             self.errors['licenceUrl'] = 'error on checking licenceUrl: %s'% e
 
         else:
