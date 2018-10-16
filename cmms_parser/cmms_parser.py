@@ -59,7 +59,7 @@ test_uuids =   ['bad_splice', # splice rule field isn't from permitted field lis
                 'full_example'
                 ]
 
-class cmms_entry():
+class CMMSEntry():
     '''
     check for existance of CEDA YAML file for the submitted uuid
     :param
@@ -132,7 +132,7 @@ class cmms_entry():
         :return: self.content
         '''
 
-        for yaml_field in self.yaml_content.keys():
+        for yaml_field in self.yaml_content:
             if self.field_mappings.has_key(yaml_field):
                 yaml_check = '_check_and_parse_' + yaml_field.replace(' ','_')
                 getattr(self,yaml_check)()
@@ -298,36 +298,13 @@ class cmms_entry():
             else:
                 self.errors['licenceUrl'] = 'licence retrieval error: %s' % ret.status_code
 
-
-    def get_content(self):
-        return self.content
-
-    def get_errrors(self):
-        return self.errors
-
-
 if test:
     for uuid in test_uuids:
         print uuid
-        apple = cmms_entry(uuid, test=1)
+        apple = CMMSEntry(uuid, test=1)
         print apple.content
         print apple.errors
 else:
     for uuid in uuids:
         apple = cmms_entry(uuid)
 
-print 'here'
-'''
-for uuid, phenoms_list in fbi_obs_to_phenoms.items():
-    with open(os.path.join(output_dir, '%s.yml'% uuid), 'w') as outfile:
-        
-        #yaml_contents = {'splice rules': {'phenomena' : 'cmms_only'}}
-        yaml_contents = {'splice rules' : {'phenomena' : 'append_new_only'}}
-        
-        #yaml_contents.update(phenoms_list)
-        
-        #for yaml_content in yaml_contents.items():
-        yaml.dump(yaml_contents, outfile, default_flow_style=False)#, Dumper=ruamel.yaml.RoundTripDumper)
-        yaml.dump(phenoms_list, outfile, default_flow_style=False)#, Dumper=ruamel.yaml.RoundTripDumper)
-
-'''
