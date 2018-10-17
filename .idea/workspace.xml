@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f07fca23-a005-4548-838e-a0559852f694" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ceda_example/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ceda_example/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ceda_example/http_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ceda_example/scripts/http_download.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ceda_example/test/test_httpclient.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmms_parser/cmms_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmms_parser/cmms_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sphinx/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/sphinx/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sphinx/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/sphinx/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +41,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="35" />
+          <entry key="gitignore" value="8" />
           <entry key="py" value="12892" />
           <entry key="rst" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="Python" value="12927" />
           <entry key="ReST" value="68" />
         </counts>
@@ -62,6 +56,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="md" value="2" />
           <entry key="py" value="12" />
           <entry key="rst" value="5" />
@@ -70,7 +65,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="12" />
           <entry key="ReST" value="5" />
         </counts>
@@ -93,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1035">
@@ -101,6 +96,15 @@
               <folding>
                 <element signature="e#277#320#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -151,6 +155,7 @@
         <option value="$PROJECT_DIR$/cmms_parser/cmms_parser.py" />
         <option value="$PROJECT_DIR$/sphinx/index.rst" />
         <option value="$PROJECT_DIR$/sphinx/conf.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -161,8 +166,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="3360" />
+    <option name="y" value="-676" />
+    <option name="width" value="1080" />
+    <option name="height" value="1920" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -262,16 +269,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="3360" y="-676" width="1080" height="1920" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742489" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26589596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.47831327" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21459459" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
@@ -525,6 +532,13 @@
           <folding>
             <element signature="e#277#320#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
