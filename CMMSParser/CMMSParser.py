@@ -28,7 +28,7 @@ __date__ = "17 Oct 2018"
 __copyright__ = "Copyright 2018 United Kingdom Research and Innovation"
 __license__ = "BSD - see LICENSE file in top-level package directory"
 __contact__ = "graham.parton@stfc.ac.uk"
-__all__ = ['CMMSEntry']
+__all__ = ['CMMSParser']
 
 # first let's call in the standard libraries typically needed when interacting with MOLES stuff...
 
