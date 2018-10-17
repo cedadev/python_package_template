@@ -23,6 +23,13 @@ Version 1.0: initial scripting
 
 
 """
+__author__ = "Graham Parton"
+__date__ = "17 Oct 2018"
+__copyright__ = "Copyright 2018 United Kingdom Research and Innovation"
+__license__ = "BSD - see LICENSE file in top-level package directory"
+__contact__ = "graham.parton@stfc.ac.uk"
+__all__ = ['CMMSEntry']
+
 # first let's call in the standard libraries typically needed when interacting with MOLES stuff...
 
 import datetime
