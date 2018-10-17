@@ -38,7 +38,7 @@ setup(
     },
     install_requires=['requests',
                       'pyYAML',
-                      'yamlint'],
+                      'yamllint'],
     
     # This qualifier can be used to selectively exclude Python versions - 
     # in this case early Python 2 and 3 releases
