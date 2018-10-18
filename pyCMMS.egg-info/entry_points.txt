@@ -1,0 +1,3 @@
+[console_scripts]
+cmms_checker = CMMSParser.CMMSChecker:review_cmms_content
+

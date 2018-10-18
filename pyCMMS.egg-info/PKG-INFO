@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyCMMS
+Version: 0.1.0
+Summary: Package to parse and check CEDA Manaual Metadata store YAML entries
+Home-page: https://github.com/gap736uk/pyCMMS/
+Author: Graham Parton
+Author-email: Graham.Parton@stfc.ac.uk
+License: BSD - See pyCMMS/LICENSE file for details
+Description: # pyCMMS
+        Package for parsing and validating YAML content from the CEDA Manual Metadata Store (CMMS)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Security
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown

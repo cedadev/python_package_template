@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 # One strategy for storing the overall version is to put it in the top-level
 # package's __init__ but Nb. __init__.py files are not needed to declare 
 # packages in Python 3
-from CMMSParser import __version__ as _package_version
+from client import __version__ as _package_version
 
 # Populate long description setting with content of README
 #
@@ -38,11 +38,12 @@ setup(
     },
     install_requires=['requests',
                       'pyYAML',
-                      'yamllint'],
+                      'yamllint',
+                      'PyGithub'],
     
     # This qualifier can be used to selectively exclude Python versions - 
     # in this case early Python 2 and 3 releases
-    python_requires='>=2.7.0',
+    python_requires='>=2.7.0<3.0.0',
     
     # See:
     # https://www.python.org/dev/peps/pep-0301/#distutils-trove-classification
@@ -68,4 +69,9 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
     zip_safe=False,
+    entry_points={
+        'console_scripts': [
+            'cmms_checker = client.cmms_checker:review_cmms_content',
+            ],
+        }
 )

@@ -33,7 +33,7 @@ for uuid in test_uuids:
 
 
     print uuid
-    apple = CMMSParser(uuid, test = True)
+    apple = CMMSParser.CMMSParser(uuid, test = True)
     print apple.content
     print apple.errors
 
