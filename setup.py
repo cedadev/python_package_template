@@ -40,7 +40,9 @@ setup(
                       'pyYAML',
                       'yamllint',
                       'PyGithub'],
-    
+
+    test_require = ['pytest'],
+
     # This qualifier can be used to selectively exclude Python versions - 
     # in this case early Python 2 and 3 releases
     python_requires='>=2.7.0<3.0.0',

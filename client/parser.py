@@ -185,7 +185,7 @@ class CMMSParser(object):
                         if self.yaml_content['time_range']['end'] > self.yaml_content['time_range']['start'] :
                             date_bits['endTime'] = self.yaml_content['time_range']['end']
                         else:
-                            self.errors['time range'] = 'end time preceeds start time!'
+                            self.errors['time_range'] = 'end time preceeds start time!'
                     else:
                         self.errors['time_range'] = 'end time is not in yyyy-mm-dd hh:mm:ss format. No date info supplied.'
                         # as the end date isn't set properly it's best not to supply any date info
@@ -212,15 +212,14 @@ class CMMSParser(object):
         else:
             self.errors['bbox'] = 'longitude not on -180 to + 180 grid'
 
-    def _check_and_parse_size(self):
+    def _isFloat(self, value):
+        try:
+            float(value)
+            return True
+        except ValueError:
+            return False
 
-        if isinstance(self.yaml_content['size'], int):
-            amount = self.yaml_content['size']
-            unit = 'b'
-        else:
-            size_details = self.yaml_content['size'].split(' ')
-            amount = size_details[0].strip()
-            unit =  size_details[1].strip().lower()
+    def _check_and_parse_size(self):
 
         size_mappings = {'b' : 0,
                          'kb' : 1,
@@ -229,14 +228,27 @@ class CMMSParser(object):
                          'tb' : 4,
                          'pb' : 5}
 
-        try:
+
+
+        if isinstance(self.yaml_content['size'], str):
+            size_details = self.yaml_content['size'].split(' ')
+            amount = size_details[0].strip()
+            unit = size_details[1].strip().lower()
+
+        else:
+            amount = self.yaml_content['size']
+            unit = 'b'
+
+
+        if self._isFloat(amount):
+
             if unit in size_mappings:
                 self.content[self.field_mappings['size']] = float(amount) * 1024 ** size_mappings[unit]
-
             else:
-                self.errors['size'] = '"%s" not a valid unit'% unit
-        except ValueError as e:
-            self.errors['size'] = e
+                self.errors['size'] = '"%s" not a valid unit' % unit
+
+        else:
+            self.errors['size'] = '"%s" is not a valid number'% amount
 
 
     def _check_and_parse_n_files(self):
@@ -268,7 +280,7 @@ class CMMSParser(object):
                 self.errors['acesssType'] = 'access roles provided, but not consistent with access types selected' \
                                             ' "%s" '% self.yaml_content['accessType']
         else:
-            self.errors['access_type'] = '"%s" is not a permitted option'% access_option
+            self.errors['accessType'] = '"%s" is not a permitted option'% access_option
 
     def _check_and_parse_accessRoles(self):
         if isinstance(self.yaml_content['accessRoles'], (str, list)):
