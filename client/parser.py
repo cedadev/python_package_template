@@ -83,27 +83,32 @@ class CMMSParser(object):
         :param self:
         :return: self.errors with error information as required OR self.content with read in yaml_content
         '''
-        ret = requests.get(self.cmms_url% self.uuid)
 
-        if ret.status_code == requests.codes.ok:
-            try:
-                self.yaml_content = yaml.load(ret.text)
-                gen = linter.run(ret.text, yamllin_conf)
-                lint_errors = list(gen)
-                if lint_errors:
-                    for lint_error in lint_errors:
-                        if 'duplication of key' in lint_error.message:
-                            self.errors['yamllint'] = lint_error
-                            dup_key = re.search('duplication of key "(?P<key>\w{1,})"',lint_error.message).groupdict()['key']
-                            del self.yaml_content[dup_key]
+        try:
+
+            ret = requests.get(self.cmms_url% self.uuid)
+
+            if ret.status_code == requests.codes.ok:
+                try:
+                    self.yaml_content = yaml.load(ret.text)
+                    gen = linter.run(ret.text, yamllin_conf)
+                    lint_errors = list(gen)
+                    if lint_errors:
+                        for lint_error in lint_errors:
+                            if 'duplication of key' in lint_error.message:
+                                self.errors['yamllint'] = lint_error
+                                dup_key = re.search('duplication of key "(?P<key>\w{1,})"',lint_error.message).groupdict()['key']
+                                del self.yaml_content[dup_key]
 
 
-            except yaml.YAMLError as e :
-                self.errors['yaml_check'] = e
-        elif ret.status_code == 404:
-            self.errors['cmms_check'] = 'no CMMS entry for %s'% self.uuid
-        else:
-            self.errors['cmms_check'] = 'CMMS retrieval error: %s' % ret.status_code
+                except yaml.YAMLError as e :
+                    self.errors['yaml_check'] = e
+            elif ret.status_code == 404:
+                self.errors['cmms_check'] = 'no CMMS entry for %s'% self.uuid
+            else:
+                self.errors['cmms_check'] = 'CMMS retrieval error: %s' % ret.status_code
+        except requests.ConnectionError as e:
+            self.errors['cmms_check'] = 'CMMS service unreachable when attempting to get %s.yml entry'% self.uuid
 
 
     def _parse_yaml_content(self):
