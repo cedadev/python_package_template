@@ -1,4 +1,4 @@
-from client.parser import CMMSParser
+from cmms.client.parser import CMMSParser
 from yaml import YAMLError
 
 def check_err(test_string, err_entry ):

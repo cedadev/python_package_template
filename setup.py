@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 # One strategy for storing the overall version is to put it in the top-level
 # package's __init__ but Nb. __init__.py files are not needed to declare 
 # packages in Python 3
-from client import __version__ as _package_version
+from cmms.client import __version__ as _package_version
 
 # Populate long description setting with content of README
 #
