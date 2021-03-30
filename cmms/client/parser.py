@@ -121,7 +121,7 @@ class CMMSParser(object):
         '''
 
         for yaml_field in self.yaml_content:
-            if self.field_mappings.has_key(yaml_field):
+            if yaml_field in self.field_mappings:
                 yaml_check = '_check_and_parse_' + yaml_field.replace(' ','_')
                 getattr(self,yaml_check)()
             else:
@@ -145,9 +145,9 @@ class CMMSParser(object):
         splice_error_msg = ''
         for splice_item_name, splice_rule in self.yaml_content['splice rules'].items():
             if splice_item_name.lower() in self.field_mappings.keys() + ['default']:
-                if self.yaml_content.has_key(splice_item_name):
+                if splice_item_name in self.yaml_content:
                     if splice_rule in splice_options:
-                        if self.content.has_key(self.field_mappings['splice rules']):
+                        if self.field_mappings['splice rules'] in self.content:
                             self.content[self.field_mappings['splice rules']][splice_item_name] = splice_rule
                         else:
                             self.content[self.field_mappings['splice rules']] = {splice_item_name : splice_rule}
@@ -161,7 +161,7 @@ class CMMSParser(object):
                 splice_error_msg = '"%s" is not a recognised CMMS field name'% splice_item_name
 
             if splice_error_msg:
-                if self.errors.has_key('splice_rules'):
+                if 'splice_rules' in self.errors:
                     self.errors['splice_rules'].append(splice_error_msg)
                 else:
                     self.errors['splice_rules'] = [splice_error_msg]
@@ -181,7 +181,7 @@ class CMMSParser(object):
             if isinstance(self.yaml_content['time_range']['start'], datetime.datetime):
                 date_bits['startTime'] = self.yaml_content['time_range']['start']
 
-                if self.yaml_content['time_range'].has_key('end'):
+                if 'end' in self.yaml_content['time_range']:
                     if isinstance(self.yaml_content['time_range']['end'], datetime.date):
                         self.yaml_content['time_range']['end'] = datetime.datetime.combine(
                             self.yaml_content['time_range']['end'], datetime.time(23, 59, 59))
@@ -270,15 +270,15 @@ class CMMSParser(object):
 
             if access_option == 'restricted':
 
-                if self.yaml_content.has_key('accessRoles'):
+                if 'accessRoles' in self.yaml_content:
                     self._check_and_parse_accessRoles()
-                    if self.content.has_key('accessRoles'):
+                    if 'accessRoles' in self.content:
                         self.content['accessType'] = self.yaml_content['accessType'] # To do: some code is needed here!!!
 
                 else:
                     self.errors['accessType'] = 'access roles are missing - required for accessType = restricted'
 
-            elif not self.yaml_content.has_key('accessRoles'):
+            elif 'accessRoles' not in self.yaml_content:
                 self.content[self.field_mappings['accessType']] = self.yaml_content['accessType']
 
             else:

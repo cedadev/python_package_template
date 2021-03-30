@@ -1,0 +1,1583 @@
+versions pytest-3.9.2, py-1.7.0, python-2.7.10.final.0
+cwd=/Users/qxt64851/code/pycmms
+args=['--debug']
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x106a83750>
+    pytest_plugin_registered [hook]
+        manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+        plugin: <Session 'pycmms'>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x106a83750>
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x106f35150>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x106f35290>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.logging.LoggingPlugin object at 0x106f352d0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: py._io.terminalwriter [assertion]
+    early skip of rewriting module: py._io.unicodedata [assertion]
+    early skip of rewriting module: unicodedata [assertion]
+    early skip of rewriting module: py._io.termios [assertion]
+    early skip of rewriting module: termios [assertion]
+    early skip of rewriting module: py._io.fcntl [assertion]
+    early skip of rewriting module: py._io.struct [assertion]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.config.Config object at 0x106a83750>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.mark' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/mark/__init__.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.main' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/main.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.terminal' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/terminal.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.runner' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/runner.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.python' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/python.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.fixtures' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/fixtures.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.debugging' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/debugging.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.unittest' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/unittest.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.capture' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/capture.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.skipping' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/skipping.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.tmpdir' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/tmpdir.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.monkeypatch' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/monkeypatch.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.recwarn' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/recwarn.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.pastebin' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/pastebin.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.helpconfig' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/helpconfig.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.nose' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/nose.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.assertion' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/assertion/__init__.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.junitxml' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/junitxml.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.resultlog' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/resultlog.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.doctest' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/doctest.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.cacheprovider' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/cacheprovider.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.freeze_support' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/freeze_support.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.setuponly' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/setuponly.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.setupplan' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/setupplan.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.warnings' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/warnings.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.logging' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/logging.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.capture.CaptureManager object at 0x106f1df90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <Session 'pycmms'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x106f35150>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x106f35290>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.logging.LoggingPlugin object at 0x106f352d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.terminal.TerminalReporter object at 0x106f35a50>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session 'pycmms'>
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.config.Config object at 0x106a83750>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.mark' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/mark/__init__.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.main' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/main.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.terminal' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/terminal.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.runner' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/runner.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.python' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/python.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.fixtures' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/fixtures.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.debugging' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/debugging.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.unittest' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/unittest.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.capture' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/capture.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.skipping' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/skipping.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.tmpdir' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/tmpdir.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.monkeypatch' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/monkeypatch.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.recwarn' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/recwarn.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.pastebin' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/pastebin.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.helpconfig' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/helpconfig.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.nose' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/nose.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.assertion' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/assertion/__init__.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.junitxml' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/junitxml.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.resultlog' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/resultlog.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.doctest' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/doctest.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.cacheprovider' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/cacheprovider.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.freeze_support' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/freeze_support.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.setuponly' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/setuponly.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.setupplan' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/setupplan.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.warnings' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/warnings.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <module '_pytest.logging' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/logging.pyc'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.capture.CaptureManager object at 0x106f1df90>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <Session 'pycmms'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x106f35150>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x106f35290>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.logging.LoggingPlugin object at 0x106f352d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.terminal.TerminalReporter object at 0x106f35a50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x106a0a2d0>
+          plugin: <_pytest.fixtures.FixtureManager object at 0x106f40d50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          startdir: /Users/qxt64851/code/pycmms
+          config: <_pytest.config.Config object at 0x106a83750>
+      finish pytest_report_header --> [['rootdir: /Users/qxt64851/code/pycmms, inifile:'], ['using: pytest-3.9.2 pylib-1.7.0']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session 'pycmms'>
+    perform_collect <Session 'pycmms'> ['/Users/qxt64851/code/pycmms'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session 'pycmms'>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session 'pycmms'>
+        processing argument /Users/qxt64851/code/pycmms [collection]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/test
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                path: /Users/qxt64851/code/pycmms/test
+                parent: <Session 'pycmms'>
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/.pytest_cache
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx
+                parent: <Session 'pycmms'>
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/.git
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/client
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                path: /Users/qxt64851/code/pycmms/client
+                parent: <Session 'pycmms'>
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/.idea
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/.gitignore
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/.gitignore
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/README.md
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/README.md
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/pytestdebug.log
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/pytestdebug.log
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/setup.py
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/setup.py
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/client/__init__.py
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/client/__init__.py
+                parent: <Session 'pycmms'>
+              pytest_pycollect_makemodule [hook]
+                  path: /Users/qxt64851/code/pycmms/client/__init__.py
+                  parent: <Session 'pycmms'>
+              finish pytest_pycollect_makemodule --> <Package '/Users/qxt64851/code/pycmms/client'> [hook]
+            finish pytest_collect_file --> [<Package '/Users/qxt64851/code/pycmms/client'>] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/.gitignore
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/.gitignore
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/Makefile
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/Makefile
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/ceda_example.rst
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/ceda_example.rst
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/ceda_example.scripts.rst
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/ceda_example.scripts.rst
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/ceda_example.test.rst
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/ceda_example.test.rst
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/conf.py
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/conf.py
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/index.rst
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/index.rst
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/modules.rst
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/sphinx/modules.rst
+                parent: <Session 'pycmms'>
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/test/__pycache__
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                path: /Users/qxt64851/code/pycmms/test/__pycache__
+                parent: <Session 'pycmms'>
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/qxt64851/code/pycmms/test/__init__.py
+                config: <_pytest.config.Config object at 0x106a83750>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                path: /Users/qxt64851/code/pycmms/test/__init__.py
+                parent: <Session 'pycmms'>
+              pytest_pycollect_makemodule [hook]
+                  path: /Users/qxt64851/code/pycmms/test/__init__.py
+                  parent: <Session 'pycmms'>
+              finish pytest_pycollect_makemodule --> <Package '/Users/qxt64851/code/pycmms/test'> [hook]
+            finish pytest_collect_file --> [<Package '/Users/qxt64851/code/pycmms/test'>] [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=2 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=2 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Package '/Users/qxt64851/code/pycmms/client'> [collection]
+      pytest_collectstart [hook]
+          collector: <Package '/Users/qxt64851/code/pycmms/client'>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package '/Users/qxt64851/code/pycmms/client'>
+        pytest_ignore_collect [hook]
+            path: /Users/qxt64851/code/pycmms/client/__init__.pyc
+            config: <_pytest.config.Config object at 0x106a83750>
+        finish pytest_ignore_collect --> False [hook]
+        pytest_collect_file [hook]
+            path: /Users/qxt64851/code/pycmms/client/__init__.pyc
+            parent: <Package '/Users/qxt64851/code/pycmms/client'>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            path: /Users/qxt64851/code/pycmms/client/cmms_checker.py
+            config: <_pytest.config.Config object at 0x106a83750>
+        finish pytest_ignore_collect --> False [hook]
+        pytest_collect_file [hook]
+            path: /Users/qxt64851/code/pycmms/client/cmms_checker.py
+            parent: <Package '/Users/qxt64851/code/pycmms/client'>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            path: /Users/qxt64851/code/pycmms/client/parser.py
+            config: <_pytest.config.Config object at 0x106a83750>
+        finish pytest_ignore_collect --> False [hook]
+        pytest_collect_file [hook]
+            path: /Users/qxt64851/code/pycmms/client/parser.py
+            parent: <Package '/Users/qxt64851/code/pycmms/client'>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            path: /Users/qxt64851/code/pycmms/client/parser.pyc
+            config: <_pytest.config.Config object at 0x106a83750>
+        finish pytest_ignore_collect --> False [hook]
+        pytest_collect_file [hook]
+            path: /Users/qxt64851/code/pycmms/client/parser.pyc
+            parent: <Package '/Users/qxt64851/code/pycmms/client'>
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'client/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'client/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package '/Users/qxt64851/code/pycmms/test'> [collection]
+      pytest_collectstart [hook]
+          collector: <Package '/Users/qxt64851/code/pycmms/test'>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package '/Users/qxt64851/code/pycmms/test'>
+        pytest_ignore_collect [hook]
+            path: /Users/qxt64851/code/pycmms/test/__pycache__
+            config: <_pytest.config.Config object at 0x106a83750>
+        finish pytest_ignore_collect --> False [hook]
+        pytest_collect_directory [hook]
+            path: /Users/qxt64851/code/pycmms/test/__pycache__
+            parent: <Package '/Users/qxt64851/code/pycmms/test'>
+        finish pytest_collect_directory --> None [hook]
+        pytest_ignore_collect [hook]
+            path: /Users/qxt64851/code/pycmms/test/__init__.pyc
+            config: <_pytest.config.Config object at 0x106a83750>
+        finish pytest_ignore_collect --> False [hook]
+        pytest_collect_file [hook]
+            path: /Users/qxt64851/code/pycmms/test/__init__.pyc
+            parent: <Package '/Users/qxt64851/code/pycmms/test'>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            path: /Users/qxt64851/code/pycmms/test/__pycache__
+            config: <_pytest.config.Config object at 0x106a83750>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            path: /Users/qxt64851/code/pycmms/test/test_cmms.py
+            config: <_pytest.config.Config object at 0x106a83750>
+        finish pytest_ignore_collect --> False [hook]
+        pytest_collect_file [hook]
+            path: /Users/qxt64851/code/pycmms/test/test_cmms.py
+            parent: <Package '/Users/qxt64851/code/pycmms/test'>
+          pytest_pycollect_makemodule [hook]
+              path: /Users/qxt64851/code/pycmms/test/test_cmms.py
+              parent: <Package '/Users/qxt64851/code/pycmms/test'>
+          finish pytest_pycollect_makemodule --> <Module 'test_cmms.py'> [hook]
+        finish pytest_collect_file --> [<Module 'test_cmms.py'>] [hook]
+        pytest_ignore_collect [hook]
+            path: /Users/qxt64851/code/pycmms/test/__pycache__/test_cmms.cpython-27-PYTEST.pyc
+            config: <_pytest.config.Config object at 0x106a83750>
+        finish pytest_ignore_collect --> False [hook]
+        pytest_collect_file [hook]
+            path: /Users/qxt64851/code/pycmms/test/__pycache__/test_cmms.cpython-27-PYTEST.pyc
+            parent: <Package '/Users/qxt64851/code/pycmms/test'>
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'test/__init__.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Module 'test_cmms.py'> [collection]
+      pytest_collectstart [hook]
+          collector: <Module 'test_cmms.py'>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module 'test_cmms.py'>
+      early skip of rewriting module: test [assertion]
+      find_module called for: test.test_cmms [assertion]
+      matched test file '/Users/qxt64851/code/pycmms/test/test_cmms.py' [assertion]
+      found cached rewritten pyc for '/Users/qxt64851/code/pycmms/test/test_cmms.py' [assertion]
+      early skip of rewriting module: test.__builtin__ [assertion]
+      early skip of rewriting module: test._pytest [assertion]
+      early skip of rewriting module: test.client [assertion]
+      early skip of rewriting module: client [assertion]
+      early skip of rewriting module: client.parser [assertion]
+      early skip of rewriting module: client.datetime [assertion]
+      early skip of rewriting module: client.yaml [assertion]
+      early skip of rewriting module: yaml [assertion]
+      early skip of rewriting module: yaml.error [assertion]
+      early skip of rewriting module: yaml.tokens [assertion]
+      early skip of rewriting module: yaml.events [assertion]
+      early skip of rewriting module: yaml.nodes [assertion]
+      early skip of rewriting module: yaml.loader [assertion]
+      early skip of rewriting module: yaml.reader [assertion]
+      early skip of rewriting module: yaml.codecs [assertion]
+      early skip of rewriting module: yaml.re [assertion]
+      early skip of rewriting module: yaml.scanner [assertion]
+      early skip of rewriting module: yaml.parser [assertion]
+      early skip of rewriting module: yaml.composer [assertion]
+      early skip of rewriting module: yaml.constructor [assertion]
+      early skip of rewriting module: yaml.datetime [assertion]
+      early skip of rewriting module: yaml.binascii [assertion]
+      early skip of rewriting module: yaml.sys [assertion]
+      early skip of rewriting module: yaml.types [assertion]
+      early skip of rewriting module: yaml.resolver [assertion]
+      early skip of rewriting module: yaml.dumper [assertion]
+      early skip of rewriting module: yaml.emitter [assertion]
+      early skip of rewriting module: yaml.serializer [assertion]
+      early skip of rewriting module: yaml.representer [assertion]
+      early skip of rewriting module: yaml.copy_reg [assertion]
+      early skip of rewriting module: yaml.cyaml [assertion]
+      early skip of rewriting module: yaml._yaml [assertion]
+      early skip of rewriting module: _yaml [assertion]
+      early skip of rewriting module: client.requests [assertion]
+      early skip of rewriting module: requests [assertion]
+      early skip of rewriting module: requests.urllib3 [assertion]
+      early skip of rewriting module: urllib3 [assertion]
+      early skip of rewriting module: urllib3.connectionpool [assertion]
+      early skip of rewriting module: urllib3.exceptions [assertion]
+      early skip of rewriting module: urllib3.packages [assertion]
+      early skip of rewriting module: urllib3.packages.ssl_match_hostname [assertion]
+      early skip of rewriting module: urllib3.packages.ssl_match_hostname.sys [assertion]
+      early skip of rewriting module: urllib3.packages.ssl_match_hostname.backports [assertion]
+      early skip of rewriting module: backports [assertion]
+      early skip of rewriting module: urllib3.packages.ssl_match_hostname._implementation [assertion]
+      early skip of rewriting module: urllib3.packages.ssl_match_hostname.re [assertion]
+      early skip of rewriting module: urllib3.packages.ssl_match_hostname.ipaddress [assertion]
+      early skip of rewriting module: ipaddress [assertion]
+      early skip of rewriting module: urllib3.packages.six [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.http_client [assertion]
+      early skip of rewriting module: httplib [assertion]
+      early skip of rewriting module: mimetools [assertion]
+      early skip of rewriting module: rfc822 [assertion]
+      early skip of rewriting module: Queue [assertion]
+      early skip of rewriting module: urllib3.connection [assertion]
+      early skip of rewriting module: urllib3.util [assertion]
+      early skip of rewriting module: urllib3.util.connection [assertion]
+      early skip of rewriting module: urllib3.util.wait [assertion]
+      early skip of rewriting module: urllib3.util.errno [assertion]
+      early skip of rewriting module: urllib3.util.functools [assertion]
+      early skip of rewriting module: urllib3.util.select [assertion]
+      early skip of rewriting module: select [assertion]
+      early skip of rewriting module: urllib3.util.sys [assertion]
+      early skip of rewriting module: urllib3.util.time [assertion]
+      early skip of rewriting module: urllib3.util.request [assertion]
+      early skip of rewriting module: urllib3.util.response [assertion]
+      early skip of rewriting module: urllib3.util.ssl_ [assertion]
+      early skip of rewriting module: hmac [assertion]
+      early skip of rewriting module: urllib3.util.timeout [assertion]
+      early skip of rewriting module: urllib3.util.retry [assertion]
+      early skip of rewriting module: urllib3.util.url [assertion]
+      early skip of rewriting module: urllib3._collections [assertion]
+      early skip of rewriting module: urllib3.request [assertion]
+      early skip of rewriting module: urllib3.filepost [assertion]
+      early skip of rewriting module: urllib3.fields [assertion]
+      early skip of rewriting module: mimetypes [assertion]
+      early skip of rewriting module: _winreg [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.urllib [assertion]
+      early skip of rewriting module: urllib3.packages.six.moves.urllib.parse [assertion]
+      early skip of rewriting module: urllib3.response [assertion]
+      early skip of rewriting module: urllib3.util.queue [assertion]
+      early skip of rewriting module: urllib3.util.collections [assertion]
+      early skip of rewriting module: urllib3.util.Queue [assertion]
+      early skip of rewriting module: urllib3.poolmanager [assertion]
+      early skip of rewriting module: requests.chardet [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: chardet.compat [assertion]
+      early skip of rewriting module: chardet.sys [assertion]
+      early skip of rewriting module: chardet.universaldetector [assertion]
+      early skip of rewriting module: chardet.codecs [assertion]
+      early skip of rewriting module: chardet.logging [assertion]
+      early skip of rewriting module: chardet.re [assertion]
+      early skip of rewriting module: chardet.charsetgroupprober [assertion]
+      early skip of rewriting module: chardet.enums [assertion]
+      early skip of rewriting module: chardet.charsetprober [assertion]
+      early skip of rewriting module: chardet.escprober [assertion]
+      early skip of rewriting module: chardet.codingstatemachine [assertion]
+      early skip of rewriting module: chardet.escsm [assertion]
+      early skip of rewriting module: chardet.latin1prober [assertion]
+      early skip of rewriting module: chardet.mbcsgroupprober [assertion]
+      early skip of rewriting module: chardet.utf8prober [assertion]
+      early skip of rewriting module: chardet.mbcssm [assertion]
+      early skip of rewriting module: chardet.sjisprober [assertion]
+      early skip of rewriting module: chardet.mbcharsetprober [assertion]
+      early skip of rewriting module: chardet.chardistribution [assertion]
+      early skip of rewriting module: chardet.euctwfreq [assertion]
+      early skip of rewriting module: chardet.euckrfreq [assertion]
+      early skip of rewriting module: chardet.gb2312freq [assertion]
+      early skip of rewriting module: chardet.big5freq [assertion]
+      early skip of rewriting module: chardet.jisfreq [assertion]
+      early skip of rewriting module: chardet.jpcntx [assertion]
+      early skip of rewriting module: chardet.eucjpprober [assertion]
+      early skip of rewriting module: chardet.gb2312prober [assertion]
+      early skip of rewriting module: chardet.euckrprober [assertion]
+      early skip of rewriting module: chardet.cp949prober [assertion]
+      early skip of rewriting module: chardet.big5prober [assertion]
+      early skip of rewriting module: chardet.euctwprober [assertion]
+      early skip of rewriting module: chardet.sbcsgroupprober [assertion]
+      early skip of rewriting module: chardet.sbcharsetprober [assertion]
+      early skip of rewriting module: chardet.langcyrillicmodel [assertion]
+      early skip of rewriting module: chardet.langgreekmodel [assertion]
+      early skip of rewriting module: chardet.langbulgarianmodel [assertion]
+      early skip of rewriting module: chardet.langthaimodel [assertion]
+      early skip of rewriting module: chardet.langhebrewmodel [assertion]
+      early skip of rewriting module: chardet.hebrewprober [assertion]
+      early skip of rewriting module: chardet.langturkishmodel [assertion]
+      early skip of rewriting module: chardet.version [assertion]
+      early skip of rewriting module: requests.warnings [assertion]
+      early skip of rewriting module: requests.exceptions [assertion]
+      early skip of rewriting module: urllib3.contrib [assertion]
+      early skip of rewriting module: urllib3.contrib.pyopenssl [assertion]
+      early skip of rewriting module: OpenSSL [assertion]
+      early skip of rewriting module: requests.__version__ [assertion]
+      early skip of rewriting module: requests.utils [assertion]
+      early skip of rewriting module: requests.codecs [assertion]
+      early skip of rewriting module: requests.contextlib [assertion]
+      early skip of rewriting module: requests.io [assertion]
+      early skip of rewriting module: requests.os [assertion]
+      early skip of rewriting module: requests.re [assertion]
+      early skip of rewriting module: requests.socket [assertion]
+      early skip of rewriting module: requests.struct [assertion]
+      early skip of rewriting module: requests.sys [assertion]
+      early skip of rewriting module: requests.tempfile [assertion]
+      early skip of rewriting module: requests.zipfile [assertion]
+      early skip of rewriting module: requests.certs [assertion]
+      early skip of rewriting module: requests.certifi [assertion]
+      early skip of rewriting module: certifi [assertion]
+      early skip of rewriting module: certifi.core [assertion]
+      early skip of rewriting module: certifi.os [assertion]
+      early skip of rewriting module: certifi.warnings [assertion]
+      early skip of rewriting module: requests._internal_utils [assertion]
+      early skip of rewriting module: requests.compat [assertion]
+      early skip of rewriting module: requests.simplejson [assertion]
+      early skip of rewriting module: simplejson [assertion]
+      early skip of rewriting module: requests.json [assertion]
+      early skip of rewriting module: requests.urllib [assertion]
+      early skip of rewriting module: requests.urlparse [assertion]
+      early skip of rewriting module: requests.urllib2 [assertion]
+      early skip of rewriting module: urllib2 [assertion]
+      early skip of rewriting module: requests.cookielib [assertion]
+      early skip of rewriting module: cookielib [assertion]
+      early skip of rewriting module: _LWPCookieJar [assertion]
+      early skip of rewriting module: _MozillaCookieJar [assertion]
+      early skip of rewriting module: requests.Cookie [assertion]
+      early skip of rewriting module: Cookie [assertion]
+      early skip of rewriting module: cPickle [assertion]
+      early skip of rewriting module: requests.StringIO [assertion]
+      early skip of rewriting module: requests.collections [assertion]
+      early skip of rewriting module: urllib3.packages.ordered_dict [assertion]
+      early skip of rewriting module: urllib3.packages.thread [assertion]
+      early skip of rewriting module: urllib3.packages._abcoll [assertion]
+      early skip of rewriting module: requests.cookies [assertion]
+      early skip of rewriting module: requests.copy [assertion]
+      early skip of rewriting module: requests.time [assertion]
+      early skip of rewriting module: requests.calendar [assertion]
+      early skip of rewriting module: requests.threading [assertion]
+      early skip of rewriting module: requests.structures [assertion]
+      early skip of rewriting module: requests.packages [assertion]
+      early skip of rewriting module: idna [assertion]
+      early skip of rewriting module: idna.package_data [assertion]
+      early skip of rewriting module: idna.core [assertion]
+      early skip of rewriting module: idna.idnadata [assertion]
+      early skip of rewriting module: idna.bisect [assertion]
+      early skip of rewriting module: idna.unicodedata [assertion]
+      early skip of rewriting module: idna.re [assertion]
+      early skip of rewriting module: idna.sys [assertion]
+      early skip of rewriting module: idna.intranges [assertion]
+      early skip of rewriting module: requests.models [assertion]
+      early skip of rewriting module: requests.datetime [assertion]
+      early skip of rewriting module: requests.encodings [assertion]
+      early skip of rewriting module: encodings.idna [assertion]
+      early skip of rewriting module: encodings.stringprep [assertion]
+      early skip of rewriting module: stringprep [assertion]
+      early skip of rewriting module: encodings.re [assertion]
+      early skip of rewriting module: encodings.unicodedata [assertion]
+      early skip of rewriting module: requests.hooks [assertion]
+      early skip of rewriting module: requests.auth [assertion]
+      early skip of rewriting module: requests.hashlib [assertion]
+      early skip of rewriting module: requests.base64 [assertion]
+      early skip of rewriting module: requests.status_codes [assertion]
+      early skip of rewriting module: requests.api [assertion]
+      early skip of rewriting module: requests.sessions [assertion]
+      early skip of rewriting module: requests.adapters [assertion]
+      early skip of rewriting module: urllib3.contrib.socks [assertion]
+      early skip of rewriting module: socks [assertion]
+      early skip of rewriting module: requests.logging [assertion]
+      early skip of rewriting module: client.re [assertion]
+      early skip of rewriting module: client.yamllint [assertion]
+      early skip of rewriting module: yamllint [assertion]
+      early skip of rewriting module: yamllint.config [assertion]
+      early skip of rewriting module: yamllint.os [assertion]
+      early skip of rewriting module: yamllint.pathspec [assertion]
+      early skip of rewriting module: pathspec [assertion]
+      early skip of rewriting module: pathspec.__future__ [assertion]
+      early skip of rewriting module: pathspec.pathspec [assertion]
+      early skip of rewriting module: pathspec.util [assertion]
+      early skip of rewriting module: pathspec.os [assertion]
+      early skip of rewriting module: pathspec.posixpath [assertion]
+      early skip of rewriting module: pathspec.stat [assertion]
+      early skip of rewriting module: pathspec.compat [assertion]
+      early skip of rewriting module: pathspec.sys [assertion]
+      early skip of rewriting module: pathspec.itertools [assertion]
+      early skip of rewriting module: pathspec.collections [assertion]
+      early skip of rewriting module: pathspec.pattern [assertion]
+      early skip of rewriting module: pathspec.re [assertion]
+      early skip of rewriting module: pathspec.patterns [assertion]
+      early skip of rewriting module: pathspec.patterns.gitwildmatch [assertion]
+      early skip of rewriting module: pathspec.patterns.__future__ [assertion]
+      early skip of rewriting module: pathspec.patterns.re [assertion]
+      early skip of rewriting module: pathspec.patterns.warnings [assertion]
+      early skip of rewriting module: yamllint.yaml [assertion]
+      early skip of rewriting module: yamllint.yamllint [assertion]
+      early skip of rewriting module: yamllint.rules [assertion]
+      early skip of rewriting module: yamllint.rules.yamllint [assertion]
+      early skip of rewriting module: yamllint.rules.braces [assertion]
+      early skip of rewriting module: yamllint.rules.yaml [assertion]
+      early skip of rewriting module: yamllint.rules.common [assertion]
+      early skip of rewriting module: yamllint.rules.string [assertion]
+      early skip of rewriting module: yamllint.linter [assertion]
+      early skip of rewriting module: yamllint.re [assertion]
+      early skip of rewriting module: yamllint.parser [assertion]
+      early skip of rewriting module: yamllint.rules.brackets [assertion]
+      early skip of rewriting module: yamllint.rules.colons [assertion]
+      early skip of rewriting module: yamllint.rules.commas [assertion]
+      early skip of rewriting module: yamllint.rules.comments [assertion]
+      early skip of rewriting module: yamllint.rules.comments_indentation [assertion]
+      early skip of rewriting module: yamllint.rules.document_end [assertion]
+      early skip of rewriting module: yamllint.rules.document_start [assertion]
+      early skip of rewriting module: yamllint.rules.empty_lines [assertion]
+      early skip of rewriting module: yamllint.rules.empty_values [assertion]
+      early skip of rewriting module: yamllint.rules.hyphens [assertion]
+      early skip of rewriting module: yamllint.rules.indentation [assertion]
+      early skip of rewriting module: yamllint.rules.key_duplicates [assertion]
+      early skip of rewriting module: yamllint.rules.key_ordering [assertion]
+      early skip of rewriting module: yamllint.rules.line_length [assertion]
+      early skip of rewriting module: yamllint.rules.new_line_at_end_of_file [assertion]
+      early skip of rewriting module: yamllint.rules.new_lines [assertion]
+      early skip of rewriting module: yamllint.rules.octal_values [assertion]
+      early skip of rewriting module: yamllint.rules.quoted_strings [assertion]
+      early skip of rewriting module: yamllint.rules.trailing_spaces [assertion]
+      early skip of rewriting module: yamllint.rules.truthy [assertion]
+      early skip of rewriting module: test.yaml [assertion]
+        pytest_pycollect_makeitem [hook]
+            obj: <function test_BadSplice_DuplicateField_sucess at 0x1072c6230>
+            collector: <Module 'test_cmms.py'>
+            name: test_BadSplice_DuplicateField_sucess
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1072bd110>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function 'test_BadSplice_DuplicateField_sucess'>] [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <function test_BadAccessType_success at 0x1072c62a8>
+            collector: <Module 'test_cmms.py'>
+            name: test_BadAccessType_success
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1072bd410>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function 'test_BadAccessType_success'>] [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <module '_pytest.assertion.rewrite' from '/Users/qxt64851/code/pycmms_venv/lib/python2.7/site-packages/_pytest/assertion/rewrite.pyc'>
+            collector: <Module 'test_cmms.py'>
+            name: @pytest_ar
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <function test_BadSplice_keyIsNotRecognisedCMMSfield_sucess at 0x1072c6050>
+            collector: <Module 'test_cmms.py'>
+            name: test_BadSplice_keyIsNotRecognisedCMMSfield_sucess
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1072bd450>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>] [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <function test_BadParameterEntries_success at 0x1072c6398>
+            collector: <Module 'test_cmms.py'>
+            name: test_BadParameterEntries_success
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1072bd550>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function 'test_BadParameterEntries_success'>] [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: None
+            collector: <Module 'test_cmms.py'>
+            name: __spec__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: {'bytearray': <type 'bytearray'>, 'IndexError': <type 'exceptions.IndexError'>, 'all': <built-in function all>, 'help': Type help() for interactive help, or help(object) for help about object., 'vars': <built-in function vars>, 'SyntaxError': <type 'exceptions.SyntaxError'>, 'unicode': <type 'unicode'>, 'UnicodeDecodeError': <type 'exceptions.UnicodeDecodeError'>, 'memoryview': <type 'memoryview'>, 'isinstance': <built-in function isinstance>, 'copyright': Copyright (c) 2001-2015 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'NameError': <type 'exceptions.NameError'>, 'BytesWarning': <type 'exceptions.BytesWarning'>, 'dict': <type 'dict'>, 'input': <built-in function input>, 'oct': <built-in function oct>, 'bin': <built-in function bin>, 'SystemExit': <type 'exceptions.SystemExit'>, 'StandardError': <type 'exceptions.StandardError'>, 'format': <built-in function format>, 'repr': <built-in function repr>, 'sorted': <built-in function sorted>, 'False': False, 'RuntimeWarning': <type 'exceptions.RuntimeWarning'>, 'list': <type 'list'>, 'iter': <built-in function iter>, 'reload': <built-in function reload>, 'Warning': <type 'exceptions.Warning'>, '__package__': None, 'round': <built-in function round>, 'dir': <built-in function dir>, 'cmp': <built-in function cmp>, 'set': <type 'set'>, 'bytes': <type 'str'>, 'reduce': <built-in function reduce>, 'intern': <built-in function intern>, 'issubclass': <built-in function issubclass>, 'Ellipsis': Ellipsis, 'EOFError': <type 'exceptions.EOFError'>, 'locals': <built-in function locals>, 'BufferError': <type 'exceptions.BufferError'>, 'slice': <type 'slice'>, 'FloatingPointError': <type 'exceptions.FloatingPointError'>, 'sum': <built-in function sum>, 'getattr': <built-in function getattr>, 'abs': <built-in function abs>, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'print': <built-in function print>, 'True': True, 'FutureWarning': <type 'exceptions.FutureWarning'>, 'ImportWarning': <type 'exceptions.ImportWarning'>, 'None': None, 'hash': <built-in function hash>, 'ReferenceError': <type 'exceptions.ReferenceError'>, 'len': <built-in function len>, 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'frozenset': <type 'frozenset'>, '__name__': '__builtin__', 'ord': <built-in function ord>, 'super': <type 'super'>, 'TypeError': <type 'exceptions.TypeError'>, 'license': See http://www.python.org/2.7/license.html, 'KeyboardInterrupt': <type 'exceptions.KeyboardInterrupt'>, 'UserWarning': <type 'exceptions.UserWarning'>, 'filter': <built-in function filter>, 'range': <built-in function range>, 'staticmethod': <type 'staticmethod'>, 'SystemError': <type 'exceptions.SystemError'>, 'BaseException': <type 'exceptions.BaseException'>, 'pow': <built-in function pow>, 'RuntimeError': <type 'exceptions.RuntimeError'>, 'float': <type 'float'>, 'MemoryError': <type 'exceptions.MemoryError'>, 'StopIteration': <type 'exceptions.StopIteration'>, 'globals': <built-in function globals>, 'divmod': <built-in function divmod>, 'enumerate': <type 'enumerate'>, 'apply': <built-in function apply>, 'LookupError': <type 'exceptions.LookupError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'basestring': <type 'basestring'>, 'UnicodeError': <type 'exceptions.UnicodeError'>, 'zip': <built-in function zip>, 'hex': <built-in function hex>, 'long': <type 'long'>, 'next': <built-in function next>, 'ImportError': <type 'exceptions.ImportError'>, 'chr': <built-in function chr>, 'xrange': <type 'xrange'>, 'type': <type 'type'>, '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", 'Exception': <type 'exceptions.Exception'>, 'tuple': <type 'tuple'>, 'UnicodeTranslateError': <type 'exceptions.UnicodeTranslateError'>, 'reversed': <type 'reversed'>, 'UnicodeEncodeError': <type 'exceptions.UnicodeEncodeError'>, 'IOError': <type 'exceptions.IOError'>, 'hasattr': <built-in function hasattr>, 'delattr': <built-in function delattr>, 'setattr': <built-in function setattr>, 'raw_input': <built-in function raw_input>, 'SyntaxWarning': <type 'exceptions.SyntaxWarning'>, 'compile': <built-in function compile>, 'ArithmeticError': <type 'exceptions.ArithmeticError'>, 'str': <type 'str'>, 'property': <type 'property'>, 'GeneratorExit': <type 'exceptions.GeneratorExit'>, 'int': <type 'int'>, '__import__': <built-in function __import__>, 'KeyError': <type 'exceptions.KeyError'>, 'coerce': <built-in function coerce>, 'PendingDeprecationWarning': <type 'exceptions.PendingDeprecationWarning'>, 'file': <type 'file'>, 'EnvironmentError': <type 'exceptions.EnvironmentError'>, 'unichr': <built-in function unichr>, 'id': <built-in function id>, 'OSError': <type 'exceptions.OSError'>, 'DeprecationWarning': <type 'exceptions.DeprecationWarning'>, 'min': <built-in function min>, 'UnicodeWarning': <type 'exceptions.UnicodeWarning'>, 'execfile': <built-in function execfile>, 'any': <built-in function any>, 'complex': <type 'complex'>, 'bool': <type 'bool'>, 'ValueError': <type 'exceptions.ValueError'>, 'NotImplemented': NotImplemented, 'map': <built-in function map>, 'buffer': <type 'buffer'>, 'max': <built-in function max>, 'object': <type 'object'>, 'TabError': <type 'exceptions.TabError'>, 'callable': <built-in function callable>, 'ZeroDivisionError': <type 'exceptions.ZeroDivisionError'>, 'eval': <built-in function eval>, '__debug__': True, 'IndentationError': <type 'exceptions.IndentationError'>, 'AssertionError': <type 'exceptions.AssertionError'>, 'classmethod': <type 'classmethod'>, 'UnboundLocalError': <type 'exceptions.UnboundLocalError'>, 'NotImplementedError': <type 'exceptions.NotImplementedError'>, 'AttributeError': <type 'exceptions.AttributeError'>, 'OverflowError': <type 'exceptions.OverflowError'>}
+            collector: <Module 'test_cmms.py'>
+            name: __builtins__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: /Users/qxt64851/code/pycmms/test/test_cmms.py
+            collector: <Module 'test_cmms.py'>
+            name: __file__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <function test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess at 0x1072c6140>
+            collector: <Module 'test_cmms.py'>
+            name: test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1072bda50>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>] [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <class 'yaml.error.YAMLError'>
+            collector: <Module 'test_cmms.py'>
+            name: YAMLError
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <function check_err at 0x107290a28>
+            collector: <Module 'test_cmms.py'>
+            name: check_err
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x106c8b7d0>
+            collector: <Module 'test_cmms.py'>
+            name: __loader__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <function test_BadSplice_RuleNotPermittedOption_sucess at 0x1072c60c8>
+            collector: <Module 'test_cmms.py'>
+            name: test_BadSplice_RuleNotPermittedOption_sucess
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1072bd910>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function 'test_BadSplice_RuleNotPermittedOption_sucess'>] [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <class 'client.parser.CMMSParser'>
+            collector: <Module 'test_cmms.py'>
+            name: CMMSParser
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: /Users/qxt64851/code/pycmms/test/__pycache__/test_cmms.cpython-27-PYTEST.pyc
+            collector: <Module 'test_cmms.py'>
+            name: __cached__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: test.test_cmms
+            collector: <Module 'test_cmms.py'>
+            name: __name__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <function test_BadLicenceURL_success at 0x1072c6320>
+            collector: <Module 'test_cmms.py'>
+            name: test_BadLicenceURL_success
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1072bd6d0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function 'test_BadLicenceURL_success'>] [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: test
+            collector: <Module 'test_cmms.py'>
+            name: __package__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <module '__builtin__' (built-in)>
+            collector: <Module 'test_cmms.py'>
+            name: @py_builtins
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: None
+            collector: <Module 'test_cmms.py'>
+            name: __doc__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <function test_BadYAML at 0x1072c61b8>
+            collector: <Module 'test_cmms.py'>
+            name: test_BadYAML
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1072bdb50>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function 'test_BadYAML'>] [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__setattr__' of 'module' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __setattr__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <built-in method __new__ of type object at 0x7fff8870a440>
+            collector: <Module 'test_cmms.py'>
+            name: __new__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__getattribute__' of 'module' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __getattribute__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__delattr__' of 'module' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __delattr__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__repr__' of 'module' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __repr__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <member '__dict__' of 'module' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __dict__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__init__' of 'module' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __init__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__reduce_ex__' of 'object' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __reduce_ex__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__reduce__' of 'object' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __reduce__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__str__' of 'object' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __str__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__format__' of 'object' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __format__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <attribute '__class__' of 'object' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __class__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__subclasshook__' of 'object' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __subclasshook__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__hash__' of 'object' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __hash__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__sizeof__' of 'object' objects>
+            collector: <Module 'test_cmms.py'>
+            name: __sizeof__
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'test/test_cmms.py' lenresult=8 outcome='passed'> [hook]
+    genitems <Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'> [collection]
+      pytest_itemcollected [hook]
+          item: <Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function 'test_BadSplice_RuleNotPermittedOption_sucess'> [collection]
+      pytest_itemcollected [hook]
+          item: <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'> [collection]
+      pytest_itemcollected [hook]
+          item: <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function 'test_BadYAML'> [collection]
+      pytest_itemcollected [hook]
+          item: <Function 'test_BadYAML'>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function 'test_BadSplice_DuplicateField_sucess'> [collection]
+      pytest_itemcollected [hook]
+          item: <Function 'test_BadSplice_DuplicateField_sucess'>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function 'test_BadAccessType_success'> [collection]
+      pytest_itemcollected [hook]
+          item: <Function 'test_BadAccessType_success'>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function 'test_BadLicenceURL_success'> [collection]
+      pytest_itemcollected [hook]
+          item: <Function 'test_BadLicenceURL_success'>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function 'test_BadParameterEntries_success'> [collection]
+      pytest_itemcollected [hook]
+          item: <Function 'test_BadParameterEntries_success'>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'test/test_cmms.py' lenresult=8 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'test/__init__.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          items: [<Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>, <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>, <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>, <Function 'test_BadYAML'>, <Function 'test_BadSplice_DuplicateField_sucess'>, <Function 'test_BadAccessType_success'>, <Function 'test_BadLicenceURL_success'>, <Function 'test_BadParameterEntries_success'>]
+          session: <Session 'pycmms'>
+          config: <_pytest.config.Config object at 0x106a83750>
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session 'pycmms'>
+        pytest_report_collectionfinish [hook]
+            items: [<Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>, <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>, <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>, <Function 'test_BadYAML'>, <Function 'test_BadSplice_DuplicateField_sucess'>, <Function 'test_BadAccessType_success'>, <Function 'test_BadLicenceURL_success'>, <Function 'test_BadParameterEntries_success'>]
+            config: <_pytest.config.Config object at 0x106a83750>
+            startdir: /Users/qxt64851/code/pycmms
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> [<Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>, <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>, <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>, <Function 'test_BadYAML'>, <Function 'test_BadSplice_DuplicateField_sucess'>, <Function 'test_BadAccessType_success'>, <Function 'test_BadLicenceURL_success'>, <Function 'test_BadParameterEntries_success'>] [hook]
+    pytest_runtestloop [hook]
+        session: <Session 'pycmms'>
+      pytest_runtest_protocol [hook]
+          item: <Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>
+          nextitem: <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>
+        pytest_runtest_logstart [hook]
+            location: ('test/test_cmms.py', 11, 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess')
+            nodeid: test/test_cmms.py::test_BadSplice_keyIsNotRecognisedCMMSfield_sucess
+        early skip of rewriting module: py._path.pathlib [assertion]
+        early skip of rewriting module: pathlib [assertion]
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_keyIsNotRecognisedCMMSfield_sucess' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_keyIsNotRecognisedCMMSfield_sucess' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_keyIsNotRecognisedCMMSfield_sucess' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>
+          early skip of rewriting module: requests.netrc [assertion]
+          early skip of rewriting module: netrc [assertion]
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_keyIsNotRecognisedCMMSfield_sucess' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_keyIsNotRecognisedCMMSfield_sucess' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_keyIsNotRecognisedCMMSfield_sucess' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>
+            nextitem: <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess'>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_keyIsNotRecognisedCMMSfield_sucess' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_keyIsNotRecognisedCMMSfield_sucess' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_keyIsNotRecognisedCMMSfield_sucess' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            location: ('test/test_cmms.py', 11, 'test_BadSplice_keyIsNotRecognisedCMMSfield_sucess')
+            nodeid: test/test_cmms.py::test_BadSplice_keyIsNotRecognisedCMMSfield_sucess
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>
+          nextitem: <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>
+        pytest_runtest_logstart [hook]
+            location: ('test/test_cmms.py', 17, 'test_BadSplice_RuleNotPermittedOption_sucess')
+            nodeid: test/test_cmms.py::test_BadSplice_RuleNotPermittedOption_sucess
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_RuleNotPermittedOption_sucess' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_RuleNotPermittedOption_sucess' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_RuleNotPermittedOption_sucess' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_RuleNotPermittedOption_sucess' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_RuleNotPermittedOption_sucess' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_RuleNotPermittedOption_sucess' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>
+            nextitem: <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_RuleNotPermittedOption_sucess'>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_RuleNotPermittedOption_sucess' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_RuleNotPermittedOption_sucess' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_RuleNotPermittedOption_sucess' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            location: ('test/test_cmms.py', 17, 'test_BadSplice_RuleNotPermittedOption_sucess')
+            nodeid: test/test_cmms.py::test_BadSplice_RuleNotPermittedOption_sucess
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>
+          nextitem: <Function 'test_BadYAML'>
+        pytest_runtest_logstart [hook]
+            location: ('test/test_cmms.py', 23, 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess')
+            nodeid: test/test_cmms.py::test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>
+            nextitem: <Function 'test_BadYAML'>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess'>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            location: ('test/test_cmms.py', 23, 'test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess')
+            nodeid: test/test_cmms.py::test_BadSplice_SpliceRuleOKButNoMatchingFieldinYAML_sucess
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function 'test_BadYAML'>
+          nextitem: <Function 'test_BadSplice_DuplicateField_sucess'>
+        pytest_runtest_logstart [hook]
+            location: ('test/test_cmms.py', 29, 'test_BadYAML')
+            nodeid: test/test_cmms.py::test_BadYAML
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function 'test_BadYAML'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadYAML'>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadYAML' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadYAML' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadYAML' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function 'test_BadYAML'>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function 'test_BadYAML'>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadYAML'>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadYAML' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadYAML' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadYAML' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function 'test_BadYAML'>
+            nextitem: <Function 'test_BadSplice_DuplicateField_sucess'>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadYAML'>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadYAML' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadYAML' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadYAML' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            location: ('test/test_cmms.py', 29, 'test_BadYAML')
+            nodeid: test/test_cmms.py::test_BadYAML
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function 'test_BadSplice_DuplicateField_sucess'>
+          nextitem: <Function 'test_BadAccessType_success'>
+        pytest_runtest_logstart [hook]
+            location: ('test/test_cmms.py', 35, 'test_BadSplice_DuplicateField_sucess')
+            nodeid: test/test_cmms.py::test_BadSplice_DuplicateField_sucess
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function 'test_BadSplice_DuplicateField_sucess'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_DuplicateField_sucess'>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_DuplicateField_sucess' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_DuplicateField_sucess' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_DuplicateField_sucess' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function 'test_BadSplice_DuplicateField_sucess'>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function 'test_BadSplice_DuplicateField_sucess'>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_DuplicateField_sucess'>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_DuplicateField_sucess' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_DuplicateField_sucess' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_DuplicateField_sucess' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function 'test_BadSplice_DuplicateField_sucess'>
+            nextitem: <Function 'test_BadAccessType_success'>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadSplice_DuplicateField_sucess'>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadSplice_DuplicateField_sucess' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadSplice_DuplicateField_sucess' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadSplice_DuplicateField_sucess' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            location: ('test/test_cmms.py', 35, 'test_BadSplice_DuplicateField_sucess')
+            nodeid: test/test_cmms.py::test_BadSplice_DuplicateField_sucess
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function 'test_BadAccessType_success'>
+          nextitem: <Function 'test_BadLicenceURL_success'>
+        pytest_runtest_logstart [hook]
+            location: ('test/test_cmms.py', 41, 'test_BadAccessType_success')
+            nodeid: test/test_cmms.py::test_BadAccessType_success
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function 'test_BadAccessType_success'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadAccessType_success'>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadAccessType_success' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadAccessType_success' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadAccessType_success' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function 'test_BadAccessType_success'>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function 'test_BadAccessType_success'>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadAccessType_success'>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadAccessType_success' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadAccessType_success' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadAccessType_success' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function 'test_BadAccessType_success'>
+            nextitem: <Function 'test_BadLicenceURL_success'>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadAccessType_success'>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadAccessType_success' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadAccessType_success' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadAccessType_success' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            location: ('test/test_cmms.py', 41, 'test_BadAccessType_success')
+            nodeid: test/test_cmms.py::test_BadAccessType_success
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function 'test_BadLicenceURL_success'>
+          nextitem: <Function 'test_BadParameterEntries_success'>
+        pytest_runtest_logstart [hook]
+            location: ('test/test_cmms.py', 48, 'test_BadLicenceURL_success')
+            nodeid: test/test_cmms.py::test_BadLicenceURL_success
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function 'test_BadLicenceURL_success'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadLicenceURL_success'>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadLicenceURL_success' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadLicenceURL_success' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadLicenceURL_success' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function 'test_BadLicenceURL_success'>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function 'test_BadLicenceURL_success'>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadLicenceURL_success'>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadLicenceURL_success' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadLicenceURL_success' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadLicenceURL_success' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function 'test_BadLicenceURL_success'>
+            nextitem: <Function 'test_BadParameterEntries_success'>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadLicenceURL_success'>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadLicenceURL_success' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadLicenceURL_success' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadLicenceURL_success' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            location: ('test/test_cmms.py', 48, 'test_BadLicenceURL_success')
+            nodeid: test/test_cmms.py::test_BadLicenceURL_success
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function 'test_BadParameterEntries_success'>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            location: ('test/test_cmms.py', 56, 'test_BadParameterEntries_success')
+            nodeid: test/test_cmms.py::test_BadParameterEntries_success
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function 'test_BadParameterEntries_success'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadParameterEntries_success'>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadParameterEntries_success' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadParameterEntries_success' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadParameterEntries_success' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function 'test_BadParameterEntries_success'>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function 'test_BadParameterEntries_success'>
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadParameterEntries_success'>
+            call: <CallInfo when='call' exception: 'phenomena'>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadParameterEntries_success' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadParameterEntries_success' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadParameterEntries_success' when='call' outcome='failed'>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadParameterEntries_success' when='call' outcome='failed'>
+            node: <Function 'test_BadParameterEntries_success'>
+            call: <CallInfo when='call' exception: 'phenomena'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function 'test_BadParameterEntries_success'>
+            nextitem: None
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function 'test_BadParameterEntries_success'>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test/test_cmms.py::test_BadParameterEntries_success' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test/test_cmms.py::test_BadParameterEntries_success' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test/test_cmms.py::test_BadParameterEntries_success' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            location: ('test/test_cmms.py', 56, 'test_BadParameterEntries_success')
+            nodeid: test/test_cmms.py::test_BadParameterEntries_success
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session 'pycmms'>
+        exitstatus: 1
+      pytest_terminal_summary [hook]
+          exitstatus: 1
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x106f35a50>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x106a83750>
+    finish pytest_unconfigure --> [] [hook]
