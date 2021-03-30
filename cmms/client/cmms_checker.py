@@ -56,5 +56,5 @@ if __name__ == '__main__':
 
     log.info('test')
     result = review_cmms_content()
-    print result
+    print(result)
 
