@@ -143,8 +143,9 @@ class CMMSParser(object):
                           'replace_append',
                           'append_new_only']
         splice_error_msg = ''
+        #import pdb;pdb.set_trace()
         for splice_item_name, splice_rule in self.yaml_content['splice rules'].items():
-            if splice_item_name.lower() in self.field_mappings.keys().append('default'):
+            if splice_item_name.lower() in list(self.field_mappings.keys()) + ['default']:
                 if splice_item_name in self.yaml_content:
                     if splice_rule in splice_options:
                         if self.field_mappings['splice rules'] in self.content:
